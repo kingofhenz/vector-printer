@@ -30,6 +30,7 @@ int main() {
         }
     }
     std::cout << "]" << std::endl;
-
+    
+    system("pause>nul");
     return 0;
 }
