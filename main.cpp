@@ -6,9 +6,8 @@
 
 using namespace std;
 
-
-int main(){
- vector<int> numbers;
+int main() {
+    vector<int> numbers;
     string input;
 
     while (true) {
@@ -18,14 +17,17 @@ int main(){
         if (input == "end") {
             break;
         }
-     try {
+
+        try {
             int number = stoi(input);
             numbers.push_back(number);
         }
         catch (const invalid_argument& e) {
             cout << "Invalid input. Please try again." << endl;
         }
-     cout << "Current vector: [";
+    }
+
+    cout << "Current vector: [";
     for (int i = 0; i < numbers.size(); i++) {
         cout << numbers[i];
         if (i < numbers.size() - 1) {
@@ -35,6 +37,4 @@ int main(){
     cout << "]" << endl;
 
     return 0;
-}
-    }
 }
