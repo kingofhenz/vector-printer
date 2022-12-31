@@ -1,8 +1,6 @@
 #include <iostream>
-#include <string>
-#include <map>
 #include <vector>
-#include <thread>
+#include <string>
 
 using namespace std;
 
