@@ -8,5 +8,6 @@ using namespace std;
 
 
 int main(){
-
+  vector<int> v1{};
+  
 }
