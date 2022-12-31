@@ -18,4 +18,12 @@ int main(){
         if (input == "end") {
             break;
         }
+     try {
+            int number = stoi(input);
+            numbers.push_back(number);
+        }
+        catch (const invalid_argument& e) {
+            cout << "Invalid input. Please try again." << endl;
+        }
+    }
 }
