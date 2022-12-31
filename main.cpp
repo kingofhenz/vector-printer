@@ -15,4 +15,12 @@ int main(){
 	cin >> number;
   cout << "put your first number" << endl;\
   cin >> number;
+	do {
+		cout << "put your first number" << endl;
+		try {
+			cin >> number;
+		}
+		catch (string param) { ji=2; }
+
+	} while (ji=1);
 }
